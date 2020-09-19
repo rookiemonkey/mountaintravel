@@ -22,25 +22,31 @@ article.learnmore {
         margin: 0 30% 1% 30%;
     }
 
-    form {
+    div.learnmoreFormContainer {
+        display: flex;
+        justify-content: center;
 
-        input[type="email"] {
-            display: block;
-            width: 30%;
-            height: 30px;
-            padding: 5px;
-            margin: 20px auto 10px auto;
-            font-size: 1.25rem;
-        }
+        form {
+            width: 300px;
 
-        button {
-            display: block;
-            width: 15%;
-            height: 30px;
-            margin: 10px auto;
-            color: whitesmoke;
-            background-color: $accent2;
-            font-size: 1.25rem;
+            input[type="email"] {
+                display: block;
+                width: 100%;
+                height: 30px;
+                padding: 10px;
+                margin: 20px auto 10px auto;
+                font-size: 1.25rem;
+            }
+
+            button {
+                display: block;
+                width: 100%;
+                margin: 10px auto;
+                padding: 10px;
+                color: whitesmoke;
+                background-color: $accent2;
+                font-size: 1.25rem;
+            }
         }
     }
 }
