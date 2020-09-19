@@ -62,6 +62,7 @@ header.headerContainer {
             }
 
             button.titleContainerButton {
+                border: none;
                 margin-top: 2%;
                 width: 100px;
                 height: 45px;
@@ -72,6 +73,7 @@ header.headerContainer {
 
              button.titleContainerButton:hover {
                  color: white;
+                 border: 1px solid white;
              }
         }
     }

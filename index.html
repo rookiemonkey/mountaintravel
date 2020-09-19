@@ -160,7 +160,7 @@
         to you to keep up your energy while you're hiking through the mountains. We have tons of that</span>
       <hr>
       <div class="learnmoreFormContainer">
-        <form action="nohandler.php" method="POST">
+        <form action="#" method="POST" id="form">
           <input type="email" placeholder="Email">
           <button>SUBSCRIBE NOW</button>
         </form>
@@ -197,5 +197,13 @@
   </footer>
 
 </body>
+
+<script>
+  const form = document.getElementById("form");
+  form.addEventListener('submit', function (event) {
+    event.preventDefault();
+    console.warn('Prevent the default form behavior, on purpose.')
+  })
+</script>
 
 </html>
