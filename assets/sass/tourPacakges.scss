@@ -1,0 +1,50 @@
+article#tourPackages {
+    padding: 2.5% 0;
+    background-color: rgba(181, 196, 218, 0.3);
+
+    h2#tourPackagesHeader {
+        text-align: center;
+        margin: 0 10% 1% 10%;
+        font-size: 2.5rem;
+    }
+
+    span#tourPackagesHeaderDesc {
+        display: block;
+        text-align: center;
+        margin: 0 10% 1% 10%;
+        padding: 0 10% 1% 10%;
+        font-size: 1.25rem;
+    }
+
+    hr {
+        display: block;
+        border: 1px solid $accent2;
+        margin: 0 20% 1% 20%;
+    }
+
+    div#tourPackages {
+        display: flex;
+        flex-wrap: wrap;
+        padding: 0px 10% 0px 10%;
+
+        div.package {
+            height: 250px;
+            padding: 0px 5% 0px 5%;
+            display: flex;
+            flex-flow: column wrap;
+            justify-content: center;
+            align-items: center;
+            flex-basis: 50%;
+            text-align: center;
+
+            h2 {
+                margin-top: 5%;
+            }
+
+            span {
+                font-size: 1.25rem;
+            }
+        }
+    }
+
+}

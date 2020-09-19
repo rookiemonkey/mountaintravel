@@ -1,0 +1,47 @@
+article#destinations {
+    padding: 2.5% 0;
+
+    h2#destinationsHeader {
+        text-align: center;
+        margin: 0 10% 1% 10%;
+        font-size: 2.5rem;
+    }
+
+    span#destinationHeaderDesc {
+        display: block;
+        text-align: center;
+        margin: 0 10% 1% 10%;
+        padding: 0 10% 1% 10%;
+        font-size: 1.25rem;
+    }
+
+    hr {
+        display: block;
+        border: 1px solid $accent2;
+        margin: 0 20% 1% 20%;
+    }
+
+    ul#destinationsImages {
+        list-style-type: none;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        padding: 0px 10% 0px 10%;
+
+        li {
+            height: 350px;
+            padding: 20px;
+            background-clip: content-box; // so that the padding is reserved for whitespace, try to remove to see the diff.
+            background-size: cover;
+            background-position: center;
+
+            &.small {
+                flex-basis: 30%
+            }
+    
+            &.large {
+                flex-basis: 70%;
+            }
+        }
+    }
+}

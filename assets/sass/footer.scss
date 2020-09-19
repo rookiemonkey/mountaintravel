@@ -1,0 +1,22 @@
+footer {
+    padding: 0px 10% 0px 10%;
+    background-color: $accent2;
+    color: white;
+    height: 40px;
+    display: flex;
+    align-items: center;
+
+    div#courtesy {
+        flex-grow: 1;
+    }
+
+    div#socialIcons {
+        flex-grow: 1;
+        display: flex;
+        justify-content: flex-end;
+
+        a {
+            margin: 0px 5px;
+        }
+    }
+}

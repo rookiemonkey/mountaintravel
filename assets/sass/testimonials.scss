@@ -1,0 +1,34 @@
+article#testimonials {
+    padding: 2.5% 10% 2.5% 10%;
+
+    h2#testimonialsHeader {
+        text-align: center;
+        margin: 0 10% 1% 10%;
+        font-size: 2.5rem;
+    }
+
+    hr {
+        display: block;
+        border: 1px solid $accent2;
+        margin: 0 20% 1% 20%;
+    }
+
+    div.testimonial {
+        padding: 0px 10% 0px 10%;
+        margin: 10% 0px;
+
+        blockquote {
+            font-style: italic;
+            text-align: center;
+            font-size: 1.25rem;
+        }
+
+        span {
+            margin-top: 2.5%;
+            display: block;
+            text-align: right;
+            color: rgba(0, 0, 0, 0.35);
+        }
+    }
+
+}

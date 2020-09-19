@@ -1,0 +1,46 @@
+article#learnmore {
+    padding: 2.5% 0;
+    background-color: rgba(181, 196, 218, 0.3);
+    
+    h2#learnmoreHeader {
+        text-align: center;
+        margin: 0 10% 1% 10%;
+        font-size: 2.5rem;
+    }
+
+    span#learnmoreHeaderDesc {
+        display: block;
+        text-align: center;
+        margin: 0 10% 1% 10%;
+        padding: 0 10% 1% 10%;
+        font-size: 1.25rem;
+    }
+
+    hr {
+        display: block;
+        border: 1px solid $accent2;
+        margin: 0 30% 1% 30%;
+    }
+
+    form {
+
+        input[type="email"] {
+            display: block;
+            width: 30%;
+            height: 30px;
+            padding: 5px;
+            margin: 20px auto 10px auto;
+            font-size: 1.25rem;
+        }
+
+        button {
+            display: block;
+            width: 15%;
+            height: 30px;
+            margin: 10px auto;
+            color: whitesmoke;
+            background-color: $accent2;
+            font-size: 1.25rem;
+        }
+    }
+}

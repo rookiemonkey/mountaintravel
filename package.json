@@ -1,0 +1,24 @@
+{
+  "name": "moutain-travel",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "sass": "node-sass assets/sass/_main.scss assets/css/main.css",
+    "sass-live": "node-sass -w assets/sass/_main.scss assets/css/main.css",
+    "sass-min": "node-sass assets/sass/_main.scss assets/css/main.css --output-style compressed"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rookiemonkey/mountaintravel.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rookiemonkey/mountaintravel/issues"
+  },
+  "homepage": "https://github.com/rookiemonkey/mountaintravel#readme",
+  "dependencies": {
+    "node-sass": "^4.14.1"
+  }
+}

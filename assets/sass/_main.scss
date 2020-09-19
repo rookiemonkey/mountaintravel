@@ -1,0 +1,22 @@
+// variables 
+$main-color: #80A0CD;
+$accent1: #B5C4DA;
+$accent2: #425C80;
+$identifier1: 2px solid red;
+$identifier2: 2px solid purple;
+$identifier3: 2px solid green;
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Quicksand', sans-serif;
+    /* font-family: 'Open Sans', sans-serif; */
+}
+
+@import "./header.scss";
+@import "./destinations.scss";
+@import "./tourPacakges.scss";
+@import "./testimonials.scss";
+@import "./learnMore.scss";
+@import "./footer.scss";

@@ -1,0 +1,79 @@
+header#headerContainer {
+    background-image: url("/assets/img/main.jpg");
+    background-position: center;
+    background-blend-mode: overlay;
+    background-color: rgba(0, 0, 0, 0.35);
+    height: 100vh;
+    color: white;
+
+    // navigation bar
+    nav#navContainer {
+        position: absolute;
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        padding: 2% 10% 0px 10%; // equates to 20px 100px 0px 100px but responsive since %
+        justify-content: space-between;
+
+        // icon and company name
+        div#navIconsContainers {
+            flex-grow: 1;
+            display: flex;
+            align-items: center;
+            padding: 10px;
+
+            h1 {
+                margin: 0px 10px;
+            }
+        }
+
+        // options
+        div#navOptionsContainer {
+            flex-grow: 1;
+
+            ul#navOptions {
+                height: 100%; // when not streched give it a height first
+                list-style-type: none;
+                text-align: right;
+                display: flex;
+                justify-content: flex-end;
+                align-items: center;
+
+                li {
+                    margin: 0px 20px;
+                }
+            }
+        }
+    }
+
+    // heading banner
+    div#banner {
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        // header container
+        div#titleContainer {
+            text-align: center;
+
+            h1#titleContainerHeader {
+                font-size: 5em;
+            }
+
+            span#titleContainerDescription {
+                font-size: 2.5em;
+            }
+
+            button#titleContainerButton {
+                margin-top: 2%;
+                width: 100px;
+                height: 45px;
+                font-weight: bold;
+                text-transform: uppercase;
+                border-radius: 5px;
+            }
+        }
+    }
+
+}
