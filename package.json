@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "sass": "node-sass assets/sass/_main.scss assets/css/main.css",
-    "sass-live": "node-sass -w assets/sass/_main.scss assets/css/main.css",
+    "sass-live": "node-sass assets/sass/_main.scss assets/css/main.css -w assets/sass",
     "sass-min": "node-sass assets/sass/_main.scss assets/css/main.css --output-style compressed"
   },
   "repository": {

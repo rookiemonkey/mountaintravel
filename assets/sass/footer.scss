@@ -6,11 +6,11 @@ footer {
     display: flex;
     align-items: center;
 
-    div#courtesy {
+    div.courtesy {
         flex-grow: 1;
     }
 
-    div#socialIcons {
+    div.socialIcons {
         flex-grow: 1;
         display: flex;
         justify-content: flex-end;

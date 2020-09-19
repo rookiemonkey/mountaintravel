@@ -1,4 +1,4 @@
-header#headerContainer {
+header.headerContainer {
     background-image: url("/assets/img/main.jpg");
     background-position: center;
     background-blend-mode: overlay;
@@ -7,7 +7,7 @@ header#headerContainer {
     color: white;
 
     // navigation bar
-    nav#navContainer {
+    nav.navContainer {
         position: absolute;
         width: 100%;
         display: flex;
@@ -16,11 +16,9 @@ header#headerContainer {
         justify-content: space-between;
 
         // icon and company name
-        div#navIconsContainers {
-            flex-grow: 1;
+        div.navIconsContainers {
             display: flex;
             align-items: center;
-            padding: 10px;
 
             h1 {
                 margin: 0px 10px;
@@ -28,10 +26,8 @@ header#headerContainer {
         }
 
         // options
-        div#navOptionsContainer {
-            flex-grow: 1;
-
-            ul#navOptions {
+        div.navOptionsContainer {
+            ul.navOptions {
                 height: 100%; // when not streched give it a height first
                 list-style-type: none;
                 text-align: right;
@@ -47,25 +43,25 @@ header#headerContainer {
     }
 
     // heading banner
-    div#banner {
+    div.banner {
         height: 100%;
         display: flex;
         justify-content: center;
         align-items: center;
 
         // header container
-        div#titleContainer {
+        div.titleContainer {
             text-align: center;
 
-            h1#titleContainerHeader {
+            h1.titleContainerHeader {
                 font-size: 5em;
             }
 
-            span#titleContainerDescription {
+            span.titleContainerDescription {
                 font-size: 2.5em;
             }
 
-            button#titleContainerButton {
+            button.titleContainerButton {
                 margin-top: 2%;
                 width: 100px;
                 height: 45px;
@@ -73,7 +69,36 @@ header#headerContainer {
                 text-transform: uppercase;
                 border-radius: 5px;
             }
+
+             button.titleContainerButton:hover {
+                 color: white;
+             }
         }
     }
+}
 
+@media (max-width: 770px) {
+    header.headerContainer {
+        div.navIconsContainers {
+            justify-content: center !important;
+        }
+
+        div.navOptionsContainer {
+            ul.navOptions {
+                justify-content: center !important;
+            }
+        }
+
+        div.banner {
+            div.titleContainer {
+                h1.titleContainerHeader {
+                    font-size: 2.5em;
+                }
+                    
+                span.titleContainerDescription {
+                    font-size: 1.5em;
+                }
+            }
+        }
+    }
 }

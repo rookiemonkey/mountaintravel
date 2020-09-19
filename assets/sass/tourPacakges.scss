@@ -1,14 +1,14 @@
-article#tourPackages {
+article.tourPackages {
     padding: 2.5% 0;
     background-color: rgba(181, 196, 218, 0.3);
 
-    h2#tourPackagesHeader {
+    h2.tourPackagesHeader {
         text-align: center;
         margin: 0 10% 1% 10%;
         font-size: 2.5rem;
     }
 
-    span#tourPackagesHeaderDesc {
+    span.tourPackagesHeaderDesc {
         display: block;
         text-align: center;
         margin: 0 10% 1% 10%;
@@ -22,7 +22,7 @@ article#tourPackages {
         margin: 0 20% 1% 20%;
     }
 
-    div#tourPackages {
+    div.tourPackages {
         display: flex;
         flex-wrap: wrap;
         padding: 0px 10% 0px 10%;

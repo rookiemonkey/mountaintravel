@@ -1,14 +1,14 @@
-article#learnmore {
+article.learnmore {
     padding: 2.5% 0;
     background-color: rgba(181, 196, 218, 0.3);
     
-    h2#learnmoreHeader {
+    h2.learnmoreHeader {
         text-align: center;
         margin: 0 10% 1% 10%;
         font-size: 2.5rem;
     }
 
-    span#learnmoreHeaderDesc {
+    span.learnmoreHeaderDesc {
         display: block;
         text-align: center;
         margin: 0 10% 1% 10%;
